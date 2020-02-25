@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3801c85d-2a87-4833-b4a8-9456a543878c" name="Default Changelist" comment="提交更新数据库" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - autotest@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="automatedtest_backend" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1V6PaSLDRyANCJKNRmr0hAyHYY9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../工作/jieloan" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bazhou\Desktop\work\AutomationPlatform\automatedtest_backend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bazhou\Desktop\work\AutomationPlatform\automatedtest_backend\autotest_service" />
+      <recent name="C:\Users\bazhou\Desktop\work\AutomationPlatform\automatedtest_backend\rpc" />
+      <recent name="C:\Users\bazhou\Desktop\work\AutomationPlatform\automatedtest_backend" />
+      <recent name="C:\Users\bazhou\Desktop\work\AutomationPlatform\automatedtest_backend\script" />
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.debug_manager">
+    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest_service/rpc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest_service/rpc/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rpc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rpc/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_manage.py" />
+      <option name="PARAMETERS" value="runserver 192.168.0.103:8003" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest_service/rpc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest_service/rpc/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/general" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/general/wsgi.py" />
+      <option name="PARAMETERS" value="--ini uwsgi.ini" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="automatedtest_backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="automatedtest_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.automatedtest_backend" />
+      <item itemvalue="Python.debug_manager" />
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.wsgi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.debug_manager" />
+        <item itemvalue="Python.wsgi" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3801c85d-2a87-4833-b4a8-9456a543878c" name="Default Changelist" comment="" />
+      <created>1576570634063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576570634063</updated>
+      <workItem from="1576570635181" duration="47272000" />
+      <workItem from="1576804822173" duration="23507000" />
+      <workItem from="1576849161690" duration="79476000" />
+      <workItem from="1577322993854" duration="18556000" />
+      <workItem from="1577409271600" duration="38739000" />
+      <workItem from="1577755069400" duration="9305000" />
+      <workItem from="1577775144555" duration="232000" />
+      <workItem from="1577775393645" duration="1092000" />
+      <workItem from="1577776496159" duration="863000" />
+      <workItem from="1577777481252" duration="1278000" />
+      <workItem from="1577778775757" duration="1494000" />
+      <workItem from="1577780408038" duration="817000" />
+      <workItem from="1577781268195" duration="807000" />
+      <workItem from="1577797144963" duration="2558000" />
+      <workItem from="1577855750843" duration="5755000" />
+      <workItem from="1578015221119" duration="26388000" />
+      <workItem from="1578273517204" duration="14888000" />
+      <workItem from="1578361887045" duration="1544000" />
+      <workItem from="1578367362826" duration="15991000" />
+      <workItem from="1578447027031" duration="22158000" />
+      <workItem from="1578478683976" duration="251000" />
+      <workItem from="1578548748331" duration="11377000" />
+      <workItem from="1578619820722" duration="18979000" />
+      <workItem from="1578648849276" duration="1446000" />
+      <workItem from="1578879032517" duration="21987000" />
+      <workItem from="1578965944815" duration="14430000" />
+      <workItem from="1578995451960" duration="1236000" />
+      <workItem from="1579055273745" duration="20657000" />
+      <workItem from="1579141020386" duration="20855000" />
+      <workItem from="1579224809382" duration="2789000" />
+      <workItem from="1579231679550" duration="9696000" />
+      <workItem from="1579397540237" duration="7844000" />
+      <workItem from="1579424047493" duration="4170000" />
+      <workItem from="1579501488211" duration="10001000" />
+      <workItem from="1579514751984" duration="443000" />
+      <workItem from="1579571029453" duration="23713000" />
+      <workItem from="1579659272691" duration="16834000" />
+      <workItem from="1580638001318" duration="2012000" />
+      <workItem from="1580713116468" duration="11034000" />
+      <workItem from="1580808097480" duration="43496000" />
+      <workItem from="1581216257012" duration="23155000" />
+      <workItem from="1581323585703" duration="13424000" />
+      <workItem from="1581341583827" duration="3959000" />
+      <workItem from="1581385090631" duration="40174000" />
+      <workItem from="1581573637630" duration="7587000" />
+      <workItem from="1581596609800" duration="11264000" />
+      <workItem from="1581666750169" duration="25899000" />
+      <workItem from="1581819859015" duration="9836000" />
+      <workItem from="1581902203263" duration="4000" />
+      <workItem from="1581903720452" duration="81000" />
+      <workItem from="1581903814633" duration="48000" />
+      <workItem from="1581905144660" duration="72000" />
+      <workItem from="1581907892944" duration="24373000" />
+      <workItem from="1581987572505" duration="5818000" />
+      <workItem from="1581996027039" duration="17360000" />
+      <workItem from="1582077262898" duration="18834000" />
+      <workItem from="1582161887424" duration="18192000" />
+      <workItem from="1582342520634" duration="7281000" />
+      <workItem from="1582445569863" duration="1744000" />
+      <workItem from="1582447453261" duration="1792000" />
+      <workItem from="1582449304394" duration="1766000" />
+      <workItem from="1582451159902" duration="315000" />
+      <workItem from="1582451680256" duration="1772000" />
+      <workItem from="1582453525616" duration="1301000" />
+      <workItem from="1582456237023" duration="1653000" />
+      <workItem from="1582458089452" duration="2151000" />
+      <workItem from="1582460392852" duration="884000" />
+      <workItem from="1582463036828" duration="343000" />
+      <workItem from="1582467393559" duration="1173000" />
+      <workItem from="1582502848785" duration="1224000" />
+      <workItem from="1582504863359" duration="680000" />
+      <workItem from="1582506053368" duration="849000" />
+      <workItem from="1582508162008" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交token登录功能">
+      <created>1578642029364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578642029364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交更新数据库">
+      <created>1578904264243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578904264243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交更新数据库">
+      <created>1578904357678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578904357678</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交数据库脚本">
+      <created>1578908002769</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578908002769</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交注册登录接口">
+      <created>1578988522274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578988522274</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交token登录功能" />
+    <MESSAGE value="提交更新数据库" />
+    <MESSAGE value="提交数据库脚本" />
+    <MESSAGE value="提交注册登录接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交注册登录接口" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="0" key="#Notifications" timestamp="1581310543150">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="219" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1581310543150" />
+    <state x="225" y="0" key="#Updates" timestamp="1579230910667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="225" y="0" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1579230910667" />
+    <state x="87" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582099461767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="87" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582099461767" />
+    <state x="415" y="135" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581663189446">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="415" y="135" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1581663189446" />
+    <state x="328" y="98" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1581666826321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="328" y="98" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581666826321" />
+    <state x="446" y="105" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581943210381">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="105" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581943210381" />
+    <state x="342" y="0" key="#debug_manager" timestamp="1579230406368">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="342" y="0" key="#debug_manager/0.0.1280.680@0.0.1280.680" timestamp="1579230406368" />
+    <state width="1278" height="440" key="DebuggerActiveHint" timestamp="1581751447098">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1278" height="440" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1581751447098" />
+    <state x="412" y="96" key="FileChooserDialogImpl" timestamp="1582084459557">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582084459557" />
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1582116926735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582116926735" />
+    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1582116926735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582116926735" />
+    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1582116926735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582116926735" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1582116926735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582116926735" />
+    <state width="1202" height="185" key="GridCell.Tab.1.bottom" timestamp="1582037150303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="185" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582037150303" />
+    <state width="1202" height="185" key="GridCell.Tab.1.center" timestamp="1582037150302">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="185" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582037150302" />
+    <state width="1202" height="185" key="GridCell.Tab.1.left" timestamp="1582037150302">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="185" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582037150302" />
+    <state width="1202" height="185" key="GridCell.Tab.1.right" timestamp="1582037150303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="185" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582037150303" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1579231981686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1579231981686" />
+    <state x="134" y="0" key="SettingsEditor" timestamp="1582082723003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582082723003" />
+    <state x="510" y="260" width="338" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581310533724">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="510" y="260" width="338" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.680@0.0.1280.680" timestamp="1581310533724" />
+    <state x="329" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582342523953">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="329" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582342523953" />
+    <state x="293" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1581777679820">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="293" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581777679820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/generics.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/automatedtest_backend$client1.coverage" NAME="client1 Coverage Results" MODIFIED="1581858120213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rpc" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1582018465617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autotest_service/rpc" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$server.coverage" NAME="server Coverage Results" MODIFIED="1582033303233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autotest_service/rpc" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1582451197918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/general" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$debug_manager.coverage" NAME="debug_manager Coverage Results" MODIFIED="1582453415925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$client.coverage" NAME="client Coverage Results" MODIFIED="1581993822331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rpc" />
+    <SUITE FILE_PATH="coverage/automatedtest_backend$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1581942582235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_task" />
+  </component>
+</project>

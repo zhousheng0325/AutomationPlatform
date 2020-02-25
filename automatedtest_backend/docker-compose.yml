@@ -1,0 +1,117 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: autotest_master_mysql
+    networks:
+      - autotest_web
+    volumes:
+      - dai_mysql:/var/lib/mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: mysql
+      MYSQL_DATABASE: autotest
+#  db:
+#    image: mysql:5.7
+#    expose:
+#      - "3306"
+#    volumes:
+#      - dai_mysql:/var/lib/mysql
+#    restart: always
+#    ports:
+#      - "3306:3306"
+#    environment:
+#      MYSQL_USER: root
+#      MYSQL_PASSWORD: mysql
+#      MYSQL_ROOT_PASSWORD: mysql
+#      MYSQL_DATABASE: jieloan
+
+#  redis:
+#    restart: always
+#    image: redis:latest
+#    ports:
+#      - "6379:6379"
+#    command: redis-server
+#    volumes:
+#      - dai_redis:/data
+#  mongo:
+#    restart: always
+#    image: mongo:latest
+#    ports:
+#      - "27017:27017"
+#    volumes:
+#      - C:\Users\bazhou\data\mongodb\data:/data
+
+#  rabbit:
+#    restart: always
+#    image: rabbitmq:3-management
+#    environment:
+#      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMERE"
+#      RABBITMQ_DEFAULT_USER: "rabbitmq"
+#      RABBITMQ_DEFAULT_PASS: "rabbitmq"
+#      RABBITMQ_DEFAULT_VHOST: "/"
+#    ports:
+#      - "5672:5672"
+#      - "15672:15672"
+#    labels:
+#      NAME: "rabbitmq1"
+#    volumes:
+#      - dai_rabbit:/data
+
+#  flower:
+#    restart: always
+#    image: mher/flower
+#    command: ["flower", "--broker=amqp://rabbitmq:rabbitmq@rabbit", "--port=5555"]
+#    ports:
+#       - 5555:5555
+
+  # celery_task1:
+  #   restart: always
+  #   build: ../dai_appraisal
+  #   env_file: vendor.env
+  #   command: celery_task1 -A dai_vendor worker --loglevel=INFO
+  #   volumes:
+  #     - ../dai_appraisal:/usr/src/app
+
+#  elk:
+#    image: sebp/elk
+#    ports:
+#      - "5601:5601"
+#      - "9200:9200"
+#      - "5044:5044"
+#    container_name: elk
+#    volumes:
+#      - /Users/zhousheng/work/elk-data:/var/lib/elasticsearch
+
+  autotest_backend_web:
+    build: ../automatedtest_backend
+    container_name: autotest_backend
+    ports:
+      - "80:8009"
+    env_file: debug.env
+#    command: uwsgi --ini /home/work/AutomationPlatform/automatedtest_backend/uwsgi.ini
+#    command: python3 debug_manage.py runserver 0.0.0.0:8009
+    volumes:
+      - ../automatedtest_backend:/home/work/AutomationPlatform/automatedtest_backend
+    depends_on:
+      - mysql
+
+volumes:
+  dai_mysql:
+    driver: "local"
+
+networks:
+  autotest_web:
+    driver: "bridge"
+#  dai_redis:
+#  dai_mongo:
+#  dai_rabbit:
+
+
+
+
+

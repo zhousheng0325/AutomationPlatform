@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message AutotestRequest{
+   repeated int32 interface_id =1;
+   string name =2;
+   repeated int64 case_id =3;
+}
+
+message AutotestResponse{
+    repeated int32 interface_id = 1;
+    string name = 2;
+}
+
+service AutoTest {
+    rpc autotest_interface(AutotestRequest) returns(AutotestResponse) {}
+}
