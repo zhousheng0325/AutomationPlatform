@@ -15,6 +15,14 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: mysql
       MYSQL_DATABASE: autotest
+  nginx:
+    image: nginx
+    container_name: nginx_web
+    restart: always
+    volumes:
+      - ./nginx :/etc/nginx
+    ports:
+      - "9999:80"
 #  db:
 #    image: mysql:5.7
 #    expose:
@@ -90,11 +98,24 @@ services:
   autotest_backend_web:
     build: ../automatedtest_backend
     container_name: autotest_backend
-    ports:
-      - "80:8009"
+    expose:
+      - "8000"
     env_file: debug.env
-#    command: uwsgi --ini /home/work/AutomationPlatform/automatedtest_backend/uwsgi.ini
+    command: uwsgi --ini uwsgi.ini
 #    command: python3 debug_manage.py runserver 0.0.0.0:8009
+    volumes:
+      - ../automatedtest_backend:/home/work/AutomationPlatform/automatedtest_backend
+    depends_on:
+      - mysql
+
+  autotest_backend_web1:
+    build: ../automatedtest_backend
+    container_name: autotest_backend1
+    expose:
+      - "8000"
+    env_file: debug.env
+    command: uwsgi --ini uwsgi.ini
+    #    command: python3 debug_manage.py runserver 0.0.0.0:8009
     volumes:
       - ../automatedtest_backend:/home/work/AutomationPlatform/automatedtest_backend
     depends_on:

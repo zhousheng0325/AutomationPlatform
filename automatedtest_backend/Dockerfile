@@ -8,8 +8,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -i https://mirrors.aliyun.com/pypi/simple Cython
 RUN pip3 install  -r requirements.txt
 COPY . /home/work/AutomationPlatform/automatedtest_backend
-WORKDIR /home/work/AutomationPlatform/automatedtest_backend
-ENTRYPOINT uwsgi --ini uwsgi.ini
+#ENTRYPOINT uwsgi --ini uwsgi.ini
 #CMD  echo "hello docker" 
 #ENTRYPOINT python debug_manage.py runserver 0.0.0.0:8009
 #FROM ubuntu
