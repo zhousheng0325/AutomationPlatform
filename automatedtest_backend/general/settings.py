@@ -87,18 +87,18 @@ WSGI_APPLICATION = 'general.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-#    "default": {
- #       'ENGINE': 'django.db.backends.mysql',
-  #      'NAME':  os.environ['DB_NAME'],
-   #     'OPTIONS': {'charset': 'utf8'},
-    #    'USER':os.environ['DB_USER'],
-     #   'PASSWORD': os.environ['DB_PASS'],
-      #  'HOST':os.environ['DB_HOST'],
-       # 'PORT':os.environ['DB_PORT'],
-   #     'TEST': {
-    #        'CHARSET': 'utf8',
- #       },
-  #  },
+   "default": {
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME':  os.environ['DB_NAME'],
+       'OPTIONS': {'charset': 'utf8'},
+       'USER':os.environ['DB_USER'],
+       'PASSWORD': os.environ['DB_PASS'],
+       'HOST':os.environ['DB_HOST'],
+       'PORT':os.environ['DB_PORT'],
+       'TEST': {
+           'CHARSET': 'utf8',
+       },
+   },
 }
 
 
