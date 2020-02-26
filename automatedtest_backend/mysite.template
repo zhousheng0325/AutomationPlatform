@@ -1,0 +1,20 @@
+upstream autotest {
+  server autotest_backend_web:8009;
+  server autotest_backend_web1:8009;
+}
+server {
+   listen 80 default_server;
+   listen [::]:80 default_server;
+   location / {
+   root   /var/www/html;
+   index  index.html index.htm;
+   }
+   location /admin {
+    include uwsgi_params;
+    uwsgi_pass autotest;
+   }
+
+}
+
+
+

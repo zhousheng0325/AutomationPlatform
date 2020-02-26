@@ -93,7 +93,7 @@ DATABASES = {
        'OPTIONS': {'charset': 'utf8'},
        'USER':os.environ['DB_USER'],
        'PASSWORD': os.environ['DB_PASS'],
-       'HOST':os.environ['DB_HOST'],
+       'HOST':'db',
        'PORT':os.environ['DB_PORT'],
        'TEST': {
            'CHARSET': 'utf8',
@@ -121,8 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-     'http://192.168.16.124:9528',
-     'http://192.168.16.45:8000'
+     'http://192.168.0.124:9528',
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 # CORS_ALLOW_HEADERS = (
