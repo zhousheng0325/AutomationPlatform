@@ -17,7 +17,7 @@ django-filter==2.2.0
 django-redis==4.10.0
 djangorestframework==3.10.3
 Flask==1.1.1
-flower==0.9.3
+flower==1.2.0
 grpcio==1.26.0
 grpcio-tools==1.26.0
 h5py==2.10.0
